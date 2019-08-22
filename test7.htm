@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Reversing string
+        </title>
+    </head>
+    <body>
+        <script>
+            var str = prompt("enter the string to be reversed");
+         var a="";
+           var k=str.length-1;
+           function reversal()
+           {
+           for (var i=k;i>=0;i--)
+           {
+               a=a+str[i];
+           
+           }
+           document.write("Reversal of"+" "+str+" "+"is"+" "+a);
+        }
+        reversal();
+            </script>
+    </body>
+</html>

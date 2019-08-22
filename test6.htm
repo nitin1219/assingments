@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        reversal of date
+    </title>
+    <body>
+       
+            <form>
+            Enter date:
+            <input type="text" id="p1"><br><br>
+            <input type="submit" value="Submit" onclick="reversal()">
+            
+        </form>
+        <script>
+                function reversal()
+                {
+            var a=document.getElementById("p1").value;
+            var b=a.split('/').reverse().join('/');
+            document.write("Reversal of"+" "+a+" "+"is"+" ");
+            document.write(b);
+                }
+                
+            </script>
+     
+    </body>
+</html>
